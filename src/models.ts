@@ -7,7 +7,7 @@ export interface IPost {
     id: number
     handle: string
   }
-  likes: [
+  likes?: [
     {
       user: {
         id: number
